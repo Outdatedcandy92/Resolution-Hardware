@@ -35,7 +35,7 @@ This is also not a purely theoretical guide. Everything we talk about will be so
 
 ## What is Electronics
 
-![](https://cdn.hackclub.com/019cb232-0b63-7084-a178-97442d5a148c/Pasted%20image%2020260302215443.png)
+![](https://cdn.hackclub.com/019cb669-abe4-7e6a-b851-6ca4270e5eac/Pasted%20image%2020260302215443.png)
 
 Electronics is the art of controlling electricity to do useful things.
 
@@ -54,13 +54,13 @@ At its core, electronics is about guiding tiny flows of electric charge through 
 
 Over the last century, electronics went from large glowing vacuum tubes to microscopic transistors packed by the millions inside tiny chips. Today, devices that fit in your pocket contain more computing power than room sized machines from the past.
 
-*The first capacitor*
+*The first transistor*
 
-![](https://cdn.hackclub.com/019cb232-0d3e-7af4-9b6a-8253debe27fa/Pasted%20image%2020260302233912.png)
+![](https://cdn.hackclub.com/019cb669-ae17-7287-a407-6e87183d8453/Pasted%20image%2020260302233912.png)
 
-*An 0201 capacitor, Measuring at about **0.6 mm x 0.3 mm** *
+*A modern through hole transistor*
 
-![](https://cdn.hackclub.com/019cb232-0fc8-7a06-b26b-7349c9a8006f/Pasted%20image%2020260302234236.png)
+![](https://user-cdn.hackclub-assets.com/019cb6c9-2a34-73de-84b3-effe60b16914/Pasted%20image%2020260303215834.png)
 
 It all comes down to a few core ideas:
 
@@ -140,7 +140,7 @@ You decide how strong the push is, how much flows, and what the flow passes thro
 
 You’ve learned the basics of what electricity is and how it flows. Now it’s time to get your hands *(virtually)* dirty. Before we touch any real wires, we’re going to use a tool called **Falstad Circuit Simulator**. It’s like having a digital workbench where you can safely experiment, connect parts, and see electricity come to life right inside your browser.
 
-![](https://cdn.hackclub.com/019cb232-137d-7d1d-bb0a-20b7c08e12e2/20260303-0446-53.7206403.gif)
+![](https://cdn.hackclub.com/019cb669-b718-742c-9164-7df10fe5186e/20260303-0446-53.7206403.gif)
 
 Think of Falstad as a **sandbox for learning electronics**. You can drag and drop components like resistors, wires, and LEDs, then watch little dots race around the screen representing current flow. It’s visual, interactive, and much more exciting than staring at static diagrams.
 
@@ -158,14 +158,14 @@ To get started first head on over to [falstad.com/circuit/circuitjs.html](https:
 
 By default, there's a circuit on the canvas. Get rid of it by either selecting and deleting the parts, or go to **File → New Blank Circuit** for a clean slate.
 
-![](https://cdn.hackclub.com/019cb232-186c-7805-a4c9-c987461b3326/20260303-0453-03.4229243.gif)
+![](https://cdn.hackclub.com/019cb669-c46a-7f73-940d-cdea6e4d60b4/20260303-0453-03.4229243.gif)
 
 Now the black space is your **canvas**, drag to pan, scroll to zoom, click to place stuff.
 
 **Top bar:** Commonly used components (voltage sources, resistors, LEDs).  
 **Right sidebar:** Run/pause simulation, speed control, reset button.
 
-![](https://cdn.hackclub.com/019cb232-1c6b-70e0-a94a-42c33baf7b3b/Pasted%20image%2020260302235114.png)
+![](https://cdn.hackclub.com/019cb669-ce44-7274-94df-a08fe43a7042/Pasted%20image%2020260302235114.png)
 
 ## **First Component: Voltage Source (The Push)**
 
@@ -173,7 +173,7 @@ Let's drop in our first voltage source. Remember the water analogy? Voltage is l
 
 Select the **DC voltage source** symbol from the top bar (looks like a battery: long line + short line), then left-click and drag to place it on the canvas.
 
-![](https://cdn.hackclub.com/019cb232-1f11-7beb-853b-61a6639cd3c0/20260303-0454-02.1827950.gif)
+![](https://cdn.hackclub.com/019cb669-d125-7800-988e-b947a7904cea/20260303-0454-02.1827950.gif)
 
 This symbol represents a **battery/DC voltage source**.
 
@@ -189,17 +189,17 @@ Next we need to give that voltage somewhere to flow. Enter the **resistor**, whi
 
 Find the resistor symbol on the top bar (looks like a zigzag line), click it, then drag to place it near your voltage source. Now grab the **wire tool** (usually looks like a straight line) from the top bar and connect one end of the voltage source to one end of the resistor. Then connect the other ends together to make a complete loop.
 
-![](https://cdn.hackclub.com/019cb232-23b5-71f6-ad28-c3307460f9eb/20260303-0455-05.7699513.gif)
+![](https://cdn.hackclub.com/019cb669-d5e6-7faa-96d1-561571c2471d/20260303-0455-05.7699513.gif)
 
 Hit **Run** on the right sidebar. Boom! You should see little green dots racing around your loop. Those dots represent **current flow**. The voltage source is pushing, the resistor is restricting, and you can actually _watch_ the energy move.
 
 You can also right click the resistor and click on view in new scope to basically have a Voltage and current over time graph to visualize the values over time as you change stuff up.
 
-![](https://cdn.hackclub.com/019cb232-2690-772e-9efe-13a8c85b22a8/Pasted%20image%2020260302235548.png)
+![](https://cdn.hackclub.com/019cb669-da3e-7cb6-87ee-bc5ba6b8917b/Pasted%20image%2020260302235548.png)
 
 Try clicking directly on the resistor. A little menu pops up where you can drag the value lower or higher. Make it smaller and watch the green dots speed up. Make it bigger and they slow down. That is resistors in action, controlling current flow in real time.
 
-![](https://cdn.hackclub.com/019cb232-2abb-7735-abbf-221a154e9852/20260303-0456-21.8603440.gif)
+![](https://cdn.hackclub.com/019cb669-e526-7ed8-8162-745195d702d6/20260303-0456-21.8603440.gif)
 
 #### LEDs
 
@@ -209,7 +209,7 @@ To place an LED, right click anywhere on the canvas, go under **Outputs and Labe
 
 While we're at it, let's add a **switch** to control if the LED is on or off. Right click → **Passive Componenets** → **Add Switch**.
 
-![](https://cdn.hackclub.com/019cb232-32ce-7fb1-9f0b-c3a3a5fa5084/20260303-0459-18.5679297.gif)
+![](https://cdn.hackclub.com/019cb669-fb04-7f9a-ad81-b580e978c2e7/20260303-0459-18.5679297.gif)
 
 Wire it up like this: voltage source → switch → LED (line side to ground) → back to voltage source. Hit **Run**. Flip the switch closed and the LED should glow red! If not, the green dots stop at the LED. That's the diode teaching you about direction. Flip the LED around and try again.
 
@@ -218,9 +218,9 @@ Wire it up like this: voltage source → switch → LED (line side to ground) �
 
 Right click the LED → **Show in New Scope** (remove old graphs first by right clicking them → **Remove Scope**). Hover over the graph: you'll see **~5V across the LED** (matches our battery) but **56A of current** and **283W of power**.
 
-![](https://cdn.hackclub.com/019cb232-3965-76dc-9852-5cd327bcce0f/20260303-0500-50.0372465.gif)
+![](https://cdn.hackclub.com/019cb66a-035f-7b64-84a0-efc9f837281b/20260303-0500-50.0372465.gif)
 
-![](https://cdn.hackclub.com/019cb232-3cb0-76be-b408-71eb70aa3b72/Pasted%20image%2020260303000252.png)
+![](https://cdn.hackclub.com/019cb66a-0bb6-761a-a950-7f93a327d172/Pasted%20image%2020260303000252.png)
 
 That's _way_ too much! A desktop computer idles at 60-150W. Without resistance, current rushes through like water through an open pipe. In real life, the LED would burn out instantly.
 
@@ -228,7 +228,7 @@ That's _way_ too much! A desktop computer idles at 60-150W. Without resistance, 
 
 That's why we add a **series resistor** before or after the LED. Right click → **Add Resistor**, place it between the switch and LED.
 
-![](https://cdn.hackclub.com/019cb232-4097-7c9a-99f7-136c98f1bedc/20260303-0504-04.1961304.gif)
+![](https://cdn.hackclub.com/019cb66a-1476-7b31-ac61-798432102fd9/20260303-0504-04.1961304.gif)
 
 Run it again. Now current drops to **~3mA** (milliamps), which is perfect. The LED glows safely, just like in real circuits. The resistor chokes down the current so your LED lives a long happy life.
 
@@ -241,13 +241,13 @@ Right click → **Passive Components** → **Add Capacitor**. Place it in parall
 
 **Try this:** Voltage source → switch → resistor → LED → ground, _plus_ capacitor across the LED. Close the switch. Now notice how when you close and then open the switch the LED gradually dims instead of just 
 
-![](https://cdn.hackclub.com/019cb232-44d9-7c4e-9234-495c3dec48e6/Pasted%20image%2020260303000523.png)
+![](https://cdn.hackclub.com/019cb66a-21e2-79f0-9ce8-0d6524f7939c/Pasted%20image%2020260303000523.png)
 
 If you look at the graph down below which shows voltage and current across the LED you'll be able to visualize how the capacitors stored energy is used and how current is gradually dropped down to zero instead of instantly. 
 
 Right click **capacitor** → **Show in New Scope**. Close switch → voltage **spikes instantly to 5V**, current shows a sharp pulse then zero. Open switch → voltage **ramps down slowly** as capacitor discharges.
 
-![](https://cdn.hackclub.com/019cb232-47da-72a9-a602-fa51715d3055/20260303-0506-43.6923366.gif)
+![](https://cdn.hackclub.com/019cb66a-24d6-73bc-98b0-457aec42a02a/20260303-0506-43.6923366.gif)
 
 Now experiment by changing the values of the **resistor** and **capacitor**. Click on each one and drag their sliders around. You'll notice something interesting: with **higher value resistors and capacitors**, the LED stays lit up much longer after you open the switch.
 
