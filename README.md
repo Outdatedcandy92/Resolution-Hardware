@@ -10,16 +10,16 @@ Each guide walks you step-by-step through a weekly project, making it easy to le
 ---
 ## Weekly Guides
 
-| Week | Topic                       | Guide                         |
-| ---- | --------------------------- | ----------------------------- |
-| 1    | Basic Components & Circuits | [Week 1 Guide](./Week%201.md) |
-| 2    | Transistors & Logic         | [Week 2 Guide](./Week%202.md) |
-| 3    | Coming Soon                 | Coming Soon                   |
-| 4    | Coming Soon                 | Coming Soon                   |
-| 5    | Coming Soon                 | Coming Soon                   |
-| 6    | Coming Soon                 | Coming Soon                   |
-| 7    | Coming Soon                 | Coming Soon                   |
-| 8    | Coming Soon                 | Coming Soon                   |
+| Week | Topic                | Guide                         |
+| ---- | -------------------- | ----------------------------- |
+| 1    | Intro To Electronics | [Week 1 Guide](./Week%201.md) |
+| 2    | Active Componenets   | [Week 2 Guide](./Week%202.md) |
+| 3    | Integrated Circuits  | [Week 3 Guide](./Week%203.md) |
+| 4    | Make A Kit!          | [Week 4 Guide](./Week%204.md) |
+| 5    | Coming Soon          | Coming Soon                   |
+| 6    | Coming Soon          | Coming Soon                   |
+| 7    | Coming Soon          | Coming Soon                   |
+| 8    | Coming Soon          | Coming Soon                   |
 
 ---
 

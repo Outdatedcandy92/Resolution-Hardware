@@ -206,7 +206,6 @@ Now that everything is done, you can get ready to submit your project. Make sure
 
 - A detailed `README.md`
 - A `Journal.md` (if you are journaling your progress)
-- Falstad source files
 - KiCad source files (`.sch`, `.pcb`, `.prj`)
 - Production files (Gerbers)
 
@@ -230,7 +229,7 @@ project-root/
 │  │  ├─ kicad.pcb
 │  │  └─ kicad.prj
 │  └─ falstad/
-│     └─ falstad.txt
+│     └─ falstad.txt (if required)
 ├─ Journal.md
 └─ README.md
 ```
@@ -240,9 +239,8 @@ In your `README.md`, make sure you include the following:
 1. A title
 2. What the project is and why you made it
 3. A PCB render
-4. A Falstad simulation and explanation of how it works
-5. A schematic image
-6. A PCB image
+4. A schematic image
+5. A PCB image
 
 Here’s an example template you can use:
 
@@ -253,15 +251,7 @@ Here’s an example template you can use:
 
 ![3D PCB Image](./path/to/image.png)
 
----
-
-## Simulation
-
 {Yap about how it works}
-
-![Falstad Simulation Gif](./path/to/demo.gif)
-
-[Link to Demo](Falstad Demo Link)
 
 ---
 ## Schematic
