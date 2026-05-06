@@ -1,4 +1,4 @@
-- Intro
+  - Intro
     - What we're making
     - Prerequisites
 - Making a devboard
@@ -31,9 +31,24 @@ A theme that keeps coming up across all the guides: always start with planning! 
 
 For my board, I know I want to create a small square board that I can put on a keychain and carry anywhere!
 
+#### Constraints and Requirements
+
 In terms of constraints this week, your PCB has to be under 100mmx100mm and the price of your parts BOM (excluding shippings) has to be under $15. So remember to pick your parts accordingly.
 
 The $15 BOM limit is not a very strict limit and if you go a dollar up or down it's still okay! 
+
+What I don't want to see with your project is a devboard that just follows the hardware design guide and is the same as the board in the guide without any changes. An example of this would be the countless RP2040 boards people make, all of them have the same shape and pinout as the Pico, this is something I do NOT want to see for this week's submissions.
+
+What I also don't want to see is anyone copying the tutorial, you NEED to use a different MCU that what I used in this guide.
+
+Lastly, please make sure to track your time using Lapse or Journalling! 
+
+So in summary:
+- PCB under 100mmx100mm
+- $15 Parts BOM limit
+- No copying existing boards or their designs without adding anything unique (Creating a RP2040 board that looks like a pico is NOT a good submission)
+- Do NOT use the MCU that I used in the guide
+
 ### Parts Selection
 
 Once your board is planned out, it's time to select your parts: things like your MCU, any sensors, connectors, and so on. We'll be using [LCSC](https://www.lcsc.com/) as our parts supplier this week, so any part you pick should be from LCSC and in stock.
